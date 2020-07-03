@@ -1,0 +1,73 @@
+body{ 
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color:#001224;
+  font-family: 'JetBrains Mono', monospace;
+  color: #eee;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+.section{
+  width: 80%;
+  margin: 0 auto;
+}
+h1, h2, p{
+ color: white;
+}
+h1{
+  margin: 0 auto;
+}
+.sc{
+  margin: 20px;
+}
+a{
+  margin-right: 20px;
+  color: turquoise;
+}
+img{
+  width: 26%;
+  margin: 39px;
+  box-shadow: 1px 1px 5px turquoise;
+  transition: all 0.2s;
+  border-radius: 20px;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.fixed{
+  position: fixed;
+  border: 1px solid turquoise;
+  width: 100%;
+  margin: 0 auto;
+  background-color: turquoise;
+  top: 0px;
+}
+h3{
+  font-size: 20px;
+  color: turquoise;
+  font-family: monospace;
+}
+#menubar{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+main{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.flex{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex2{
+  display: flex;
+  align-content: center;
+}
