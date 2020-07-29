@@ -9,7 +9,6 @@ body{
   display: flex;
   width: 100vw;
   height: 100vh;
-  flex-direction: column;
 }
 .section{
   width: 80%;
@@ -25,6 +24,7 @@ h1{
   margin: 20px;
 }
 a{
+  margin-left: 20px;
   margin-right: 20px;
   color: turquoise;
 }
@@ -62,12 +62,32 @@ main{
   flex-direction: column;
 }
 .flex{
-  text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 .flex2{
   display: flex;
   align-content: center;
 }
+
+/*@media (max-width: 1204px) {
+  h3{font-size:20px;}
+}
+
+@media (max-width: 1018px) {
+  h3{font-size:15px;}
+}
+
+@media (max-width: 1016px) {
+  h3{font-size:10px;}
+}
+
+@media (max-width: 664px) {
+  h2{font-size: 10px;}
+}
+
+@media (max-width: 414px) {
+  h3{font-size: 5px;}
+}*/
+
